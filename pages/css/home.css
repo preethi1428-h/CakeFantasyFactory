@@ -1,0 +1,92 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap');
+        body {
+            background-color:bisque;
+            margin: 0px;
+            font-family: Arial, sans-serif;
+        }
+
+        #header-group {
+            display: flex;
+            justify-content: space-between;
+            background-color:rgb(72, 26, 7);
+            color: white;
+            text-align: center;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        #logo>img {
+            height: 50px;
+            width: 50px;
+            margin-left: 10px;
+            border-radius: 50%;
+        }
+
+        nav {
+            margin-top: 10px;
+            background-color: rgb(72, 26, 7);
+            display: flex;
+            justify-content:flex-start;
+            gap: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            
+        }
+
+        nav>a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        footer {
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(72, 26, 7);
+            padding-top: 8px;
+            padding-bottom: 14px;
+            margin-top: 30px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            top: 20px;
+        }
+        footer > p{
+        margin: 22px;
+        
+        }
+
+        #pic {
+            align-items: center;
+            padding-top: 20px;
+            padding-left: 10px;
+            margin-left: 45px;
+            
+        }
+                #pic {
+            align-items:start;
+            padding-top: 20px;
+            padding-left: 10px;
+            margin-left: 45px;
+            
+        }
+         #loginbtn {
+            height: 50px;
+            width: 100px;
+            color: white;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+        #insta{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 80px;
+            color: white;
+            text-decoration: none;
+        }
+        footer>a{
+            margin: 22px;
+            text-decoration: none;
+            color: white;
+        }
+ 

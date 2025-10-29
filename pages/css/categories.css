@@ -1,0 +1,60 @@
+body {
+        background-color:rgb(243, 185, 131);
+
+    }
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 50px;
+        padding-left: 50px;
+        color: rgb(0, 0, 0);
+        font-size: xx-large;
+    }
+
+    #wc_img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 80PX;
+    }
+
+    .wc:hover {
+        transition: transform 250ms ease-in-out;
+        transform: scale(1.05);
+    }
+    .wc {
+        background:linear-gradient(orange,Purple);
+        height: 550px;
+        width: 300px;
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 20px;
+        color: white;
+    }
+    a {
+        display: flex;
+        justify-content: end;
+    }
+
+    .home {
+        position: relative;
+        top: 30px;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .home>a{
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 40%;
+        margin-left: 40%;
+        background-color:rgb(72, 26, 7); 
+        padding: 10px;
+        align-items: center;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+    }
+    img{
+        border-radius: 10px;
+    }

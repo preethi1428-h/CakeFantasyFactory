@@ -1,0 +1,95 @@
+
+        body {
+            background-color:bisque;
+            margin: 0px;
+            font-family: Arial, sans-serif;
+            position: fixed;
+        }
+
+        #header-group {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(72, 26, 7);
+            color: white;
+            text-align: center;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 80px;
+            width: 1505px;
+        }
+        #logo>img {
+            height: 50px;
+            width: 50px;
+            margin-left: 10px;
+            border-radius: 50%;
+        }
+        footer {
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(72, 26, 7);
+            padding-top: 8px;
+            padding-bottom: 14px;
+            margin-top: 30px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            top: 20px;
+        }
+        #loginbtn {
+            height: 50px;
+            width: 100px;
+            color: white;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+          #insta{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 80px;
+            color: white;
+            text-decoration: none;
+        }
+        .details{
+            background-color: white;
+            width: 350px;
+            height: 150px;
+            text-align: center;
+            margin-top: 20px;
+            margin-left:36%;
+            padding-top: 20px;  
+            border-radius: 10px;
+            box-shadow: 0 0 20px; 
+        }
+        footer {
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(72, 26, 7);
+            padding-top:5px;
+            padding-bottom: 14px;
+            margin-top:35%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            top: 20px;
+        }
+        footer > p{
+        margin: 22px;
+        }
+        footer>a{
+             margin: 22px;
+            text-decoration: none;
+            color: white; 
+        }
+        .home{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-right: 80px
+            
+        }
+        .home>a{
+            background-color: rgb(72, 26, 7);
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+            border-radius: 15px;
+        }

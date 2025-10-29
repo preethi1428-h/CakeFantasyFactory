@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap");
+body {
+  background-color: rgb(243, 185, 131);
+}
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xxx-large;
+  color: #000000;
+}
+.box1 {
+  color: white;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 70px;
+}
+.box1 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.box1 a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+}
+img {
+  border-radius: 15px;
+}
+img:hover {
+  transition: transform 250ms ease-in-out;
+  transform: scale(1.05);
+}
+.home {
+  position: relative;
+  top: 30px;
+  justify-content: center;
+  display: flex;
+}
+.home > a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 40%;
+  margin-left: 40%;
+  background-color: rgb(72, 26, 7);
+  height: 27px;
+  width: 150px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
